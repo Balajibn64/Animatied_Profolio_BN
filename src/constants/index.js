@@ -1,40 +1,33 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate and dedicated Full Stack Developer with a strong foundation in designing and deploying dynamic, user-friendly web applications. My skill set spans across both front-end and back-end technologies, enabling me to build comprehensive solutions that deliver exceptional performance and user experience. Whether it's crafting responsive interfaces with HTML, CSS, and JavaScript frameworks like React, or developing robust server-side logic with Node.js, Express, and databases like MongoDB and SQL, I am eager to tackle complex challenges and turn ideas into reality. With a keen eye for detail and a commitment to best practices, I aim to ensure that every project is scalable, secure, and efficient. Explore my portfolio to see how my skills and innovative approach can bring your vision to life.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an enthusiastic and aspiring Full Stack Developer with a Bachelor’s degree in Computer Applications (BCA). My passion lies in creating innovative web applications that provide seamless user experiences. Throughout my academic journey and hands-on projects, I have developed a strong understanding of both front-end and back-end technologies. My expertise includes building responsive, dynamic interfaces using HTML, CSS, and JavaScript frameworks such as React, along with developing robust server-side logic with Node.js and Express. I am proficient in working with databases like MongoDB and SQL and am always eager to learn new technologies and best practices. I am committed to writing clean, efficient code and am driven by a desire to solve problems and deliver high-quality solutions. Outside of coding, I enjoy exploring new tech trends, contributing to open-source projects, and continually expanding my skill set.`;
 
-export const EXPERIENCES = [
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2021 - 2024",
+    Degree : "Bachleor of Computer Applications",
+    Name : "Arignar Anna College - KRISHNAGIRI",
+    description: `During my BCA program, I gained hands-on experience with foundational programming languages and web development technologies, including Python, Java, SQL, HTML, CSS, and JavaScript. Through coursework and projects, I developed a strong technical foundation and honed my problem-solving skills, preparing me to build and maintain efficient, scalable, and responsive web applications.`,
+    technologies: ["Java", "Python", "SQL", "Html" , "CSS" , "Javascript" ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2019 - 2021",
+    Degree : "Higher Secondary Education",
+    Name : "ST Thomas Brillant Public Matric Hr.sec School",
+    description: `In my higher secondary education, I specialized in MPCC, where I was introduced to Python. This early exposure to programming ignited my passion for computer science. The curriculum provided me with a solid understanding of mathematical concepts, scientific principles, and computational logic. Learning Python at this stage laid a strong foundation for my coding skills, fostering an analytical mindset and a keen interest in technology that propelled me into my further studies and career in software development.`,
+    technologies: ["Percentage : 85% " ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2018",
+    Degree : "Secondary Education",
+    Name : "ST Thomas Brillant Public Matric Hr.sec School",
+    description: `I completed my secondary education with a strong academic performance, scoring 85%. This phase not only instilled discipline and time management but also reinforced my foundational knowledge in subjects such as Mathematics, Science, and English, which are essential for my academic and professional journey.`,
+    technologies: ["Percentage : 85% " ],
   },
 ];
 
@@ -47,18 +40,19 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Ferrari Car Landing Page",
     image: project2,
+    link : "https://balajibn64.github.io/WEB_PROJECTS/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A simple ferrai car Landing page to practice the front-end skills with some animations",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "TailwindCSS", "React", "vite"],
   },
   {
     title: "Blogging Platform",
