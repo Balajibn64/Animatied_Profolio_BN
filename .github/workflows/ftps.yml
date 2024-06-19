@@ -15,7 +15,7 @@ jobs:
       - name: 📂 Sync files
         uses: ./
         with:
-          server: ftptest.balajibn.io
+          server: ftptest.balajibn64.io
           username: Balajibn64
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
