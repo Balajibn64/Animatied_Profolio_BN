@@ -47,7 +47,7 @@ const Navbar = () => {
               transition: { duration: 1 },
               }}
               whileTap={{ scale: 0.9 }}>
-            <a href="https://www.linkedin.com/in/balaji-bn-60498a294/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/balaji64/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
             </a>
           </motion.div>
