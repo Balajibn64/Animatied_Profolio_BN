@@ -1,7 +1,6 @@
 {
   "homepage": "https://github.com/Balajibn64/Animatied_Portfolio_BN.git",
   "name": "portfolio",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
