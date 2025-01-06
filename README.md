@@ -3,7 +3,7 @@
 Welcome to my personal portfolio project! This repository contains the code for my portfolio website, built with modern web technologies to showcase my skills, projects, and achievements.
 
 ## 🚀 Live Demo
-[View Portfolio](https://your-portfolio-link.com)
+[View Portfolio]([https://your-portfolio-link.com](https://balajibn64.github.io/PORTFOLIO/))
 
 ---
 
